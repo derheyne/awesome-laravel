@@ -28,6 +28,7 @@ So, how to use this list? Easy! The packages are split into their respective cat
 * [Database](#database)
   * Laravel MongoDB
   * Lighthouse
+  * Eager Load Pivot Relations
 * [Integrations with JavaScript](#integrations-with-javascript)
   * Alpine.js
   * Livewire
@@ -54,8 +55,8 @@ So, how to use this list? Easy! The packages are split into their respective cat
   ```
   composer require --dev barryvdh/laravel-ide-helper
   ```
-* **[Tinkerwell](https://tinkerwell.app)** (29.99 €, [d](https://beyondco.de/docs/tinkerwell/getting-started/about)) is a simple yet powerful desktop application that allows you to run PHP code and quickly try out new ideas – all within the context of your application.
-* **[Ray](https://github.com/spatie/ray)** (~300 stars, [w](https://myray.app), [d](https://spatie.be/docs/ray)) Debug with Ray to fix problems faster in Laravel apps.
+* **[Tinkerwell](https://tinkerwell.app)** *(29.99 €, [d](https://beyondco.de/docs/tinkerwell/getting-started/about))* is a simple yet powerful desktop application that allows you to run PHP code and quickly try out new ideas – all within the context of your application.
+* **[Ray](https://github.com/spatie/ray)** *(~300 stars, [w](https://myray.app), [d](https://spatie.be/docs/ray))* helps you debugging to fix problems in Laravel apps faster.
   * 
   ```
   composer require spatie/laravel-ray
@@ -109,6 +110,7 @@ So, how to use this list? Easy! The packages are split into their respective cat
   ```
   composer require nuwave/lighthouse
   ```
+* **[Eager Load Pivot Relations](https://github.com/ajcastro/eager-load-pivot-relations)** *(140 starks)* offers a simple method to eager load Laravel's pivot relations for a belongs to many relation.
 
 ## Integration with JavaScript
 
