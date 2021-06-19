@@ -24,8 +24,6 @@ So, how to use this list? Easy! The packages are split into their respective cat
   * PHP Insights
   * Enlightn
   * PHP Coding Standards Fixer
-* [Testing](#testing)
-  * Pest
 * [Database](#database)
   * Laravel MongoDB
   * Lighthouse
@@ -33,6 +31,11 @@ So, how to use this list? Easy! The packages are split into their respective cat
   * Alpine.js
   * Livewire
   * Inertia.js
+* [Media Manipulation & Management](#media-manipulation--management)
+  * Laravel Media Library
+  * Intervention Image
+* [Testing](#testing)
+  * Pest
 * [PhpStorm Plugins](#phpstorm-plugins)
   * Laravel IDEA
   * Alpine.js Support
@@ -122,6 +125,19 @@ So, how to use this list? Easy! The packages are split into their respective cat
 
   ```
   composer require inertiajs/inertia-laravel
+  ```
+
+## Media Manipulation & Management
+
+* **[Laravel Media Library](https://github.com/spatie/laravel-medialibrary)** *(4.5k stars, [d](https://spatie.be/docs/laravel-medialibrary))* associates all sorts of files with Eloquent models. It provides a simple API to work with.
+
+  ```
+  composer require "spatie/laravel-medialibrary:^9.0.0"
+  ```
+* **[Intervention Image](https://github.com/Intervention/image)** *(11.9k stars, [d](http://image.intervention.io))* provides an easier and expressive way to create, edit, and compose images and supports currently the two most common image processing libraries GD Library and Imagick.
+
+  ```
+  composer require intervention/image
   ```
 
 ## Testing
