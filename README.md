@@ -29,7 +29,7 @@ So, how to use this list? Easy! The packages are split into their respective cat
   * Laravel MongoDB
   * Lighthouse
   * Eager Load Pivot Relations
-* [Integrations with JavaScript](#integrations-with-javascript)
+* [Integration with JavaScript](#integration-with-javascript)
   * Alpine.js
   * Livewire
   * Inertia.js
@@ -111,6 +111,10 @@ So, how to use this list? Easy! The packages are split into their respective cat
   composer require nuwave/lighthouse
   ```
 * **[Eager Load Pivot Relations](https://github.com/ajcastro/eager-load-pivot-relations)** *(140 starks)* offers a simple method to eager load Laravel's pivot relations for a belongs to many relation.
+
+  ```
+  composer require ajcastro/eager-load-pivot-relations
+  ```
 
 ## Integration with JavaScript
 
