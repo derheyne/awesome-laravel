@@ -8,7 +8,7 @@ This repository contains a curated list of selected Laravel packages I, personal
 
 Yes, I know that there's already [a repository](https://github.com/chiraggude/awesome-laravel) for this type of awesome list, but (1) I don't want to scroll through thousands of packages I will probably never use to find the one I actually want to use (2) the list is horribly outdated, poorly maintained, and essential packages are missing and (3) I don't like how it only links the packages. I know what I want, I just don't fancy clicking the link and scrolling to find and then copy the composer command.
 
-So, how to use this list? Easy! The packages are split into their respective categories, like on every other [Awesome](https://github.com/sindresorhus/awesome) list. Every packages' name links to its Github repository. Click on "w" to open the packages' website. Click on "d" to open the packages' documentation. What follows is a short description of the package. Last but not least, I provide a command you can triple-click to copy it straight into your console to require the package.
+So, how to use this list? Easy! The packages are split into their respective categories, like on every other [Awesome](https://github.com/sindresorhus/awesome) list. Every packages' name links to its Github repository. Click on "w" to open the packages' website. Click on "d" to open the packages' documentation. What follows is a short description of the package. Last but not least, I provide a command you can triple-click to copy it straight into your console to install the package.
 
 ## Table of Contents
 
@@ -25,6 +25,8 @@ So, how to use this list? Easy! The packages are split into their respective cat
   * Lighthouse
 * [PhpStorm Plugins](#phpstorm-plugins)
   * Laravel IDEA
+  * Alpine.js Support
+  * Php Inspections (EA Extended)
 
 ## Developer & Debugging Tools
 
@@ -45,7 +47,7 @@ So, how to use this list? Easy! The packages are split into their respective cat
   ```
   composer require --dev nunomaduro/larastan
   ```
-* **[PHP Insights](https://github.com/nunomaduro/phpinsights)** *(4.1k stars, [w](https://phpinsights.com))* was carefully crafted to simplify the analysis of your code directly from your terminal, and is the perfect starting point to analyze the code quality of your PHP projects.  
+* **[PHP Insights](https://github.com/nunomaduro/phpinsights)** *(4.1k stars, [w](https://phpinsights.com))* was carefully crafted to simplify the analysis of your code directly from your terminal, and is the perfect starting point to analyse the code quality of your PHP projects.  
 
    ```
    composer require --dev nunomaduro/phpinsights
@@ -76,3 +78,5 @@ So, how to use this list? Easy! The packages are split into their respective cat
 ## PhpStorm Plugins
 
 * **[Laravel IDEA](https://laravel-idea.com)** *($3.9/m, [w](https://laravel-idea.com), [d](https://laravel-idea.com/docs))* provides advanced code generations and powerful autocompletions for almost anything that comes in native Laravel (and Livewire, Inertia and Nova) that's not being autocompleted by your IDE. If you don't have it, *pick it up*!
+* **[Alpine.js Support](https://plugins.jetbrains.com/plugin/15251-alpine-js-support)** adds support for Alpine.js directives autocompletion.
+* **[Php Inspections (EA Extended)](https://plugins.jetbrains.com/plugin/7622-php-inspections-ea-extended-/)** (1.2k stars, free & paid, [w](https://github.com/kalessil/phpinspectionsea), [d](https://github.com/kalessil/phpinspectionsea/blob/master/docs/getting-started.md)) is a static code analyser that works right in your IDE.
