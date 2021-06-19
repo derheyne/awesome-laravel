@@ -23,6 +23,10 @@ So, how to use this list? Easy! The packages are split into their respective cat
 * [Database](#database)
   * Laravel MongoDB
   * Lighthouse
+* [Integrations with JavaScript](#integrations-with-javascript)
+  * Alpine.js
+  * Livewire
+  * Inertia.js
 * [PhpStorm Plugins](#phpstorm-plugins)
   * Laravel IDEA
   * Alpine.js Support
@@ -73,6 +77,25 @@ So, how to use this list? Easy! The packages are split into their respective cat
 
   ```
   composer require nuwave/lighthouse
+  ```
+
+## Integration with JavaScript
+
+* **[Alpine.js](https://github.com/alpinejs/alpine)** *(17k stars, [w](https://alpinejs.dev), [d](https://alpinejs.dev/alpine-101))* is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web. Plop in a script tag and get going.
+
+  ```
+  npm install alpinejs
+  ```
+* **[Livewire](https://github.com/livewire/livewire)** *(11.7k stars, [w](https://laravel-livewire.com), [d](https://laravel-livewire.com/docs))* is a full-stack framework for Laravel that takes the pain out of building dynamic UIs.
+
+  ```
+  composer require livewire/livewire
+  ```
+
+* **[Inertia.js](https://github.com/inertiajs/inertia)** (3.1k stars, [w](https://inertiajs.com), [d](https://inertiajs.com/server-side-setup)) lets you quickly build modern single-page React, Vue and Svelte apps using classic server-side routing and controllers.
+
+  ```
+  composer require inertiajs/inertia-laravel
   ```
 
 ## PhpStorm Plugins
