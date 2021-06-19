@@ -15,6 +15,7 @@ So, how to use this list? Easy! The packages are split into their respective cat
 * [Developer & Debugging Tools](#developer--debugging-tools)
   * Laravel Debugbar
   * Laravel IDE Helper
+  * Tinkerwell
   * Ray
   * Clockwork
   * Laravel Telescope
@@ -53,6 +54,7 @@ So, how to use this list? Easy! The packages are split into their respective cat
   ```
   composer require --dev barryvdh/laravel-ide-helper
   ```
+* **[Tinkerwell](https://tinkerwell.app)** (29.99 €, [d](https://beyondco.de/docs/tinkerwell/getting-started/about)) is a simple yet powerful desktop application that allows you to run PHP code and quickly try out new ideas – all within the context of your application.
 * **[Ray](https://github.com/spatie/ray)** (~300 stars, [w](https://myray.app), [d](https://spatie.be/docs/ray)) Debug with Ray to fix problems faster in Laravel apps.
   * 
   ```
