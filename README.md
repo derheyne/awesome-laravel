@@ -15,11 +15,17 @@ So, how to use this list? Easy! The packages are split into their respective cat
 * [Developer & Debugging Tools](#developer--debugging-tools)
   * Laravel Debugbar
   * Laravel IDE Helper
+  * Ray
+  * Clockwork
+  * Laravel Telescope
+  * Laravel Tail
 * [Code Quality Tools](#code-quality-tools)
   * Larastan
   * PHP Insights
   * Enlightn
   * PHP Coding Standards Fixer
+* [Testing](#testing)
+  * Pest
 * [Database](#database)
   * Laravel MongoDB
   * Lighthouse
@@ -43,6 +49,26 @@ So, how to use this list? Easy! The packages are split into their respective cat
 
   ```
   composer require --dev barryvdh/laravel-ide-helper
+  ```
+* **[Ray](https://github.com/spatie/ray)** (~300 stars, [w](https://myray.app), [d](https://spatie.be/docs/ray)) Debug with Ray to fix problems faster in Laravel apps.
+  * 
+  ```
+  composer require spatie/laravel-ray
+  ```
+* **[Clockwork](https://github.com/itsgoingd/clockwork)** *(3.6k stars, [w](https://underground.works/clockwork/), [d](https://underground.works/clockwork/#documentation))* Clockwork gives you an insight into your application runtime - including request data, performance metrics, log entries, database queries, cache queries, redis commands, dispatched events, queued jobs, rendered views and more - for HTTP requests, commands, queue jobs and tests. Right in your browser.
+  
+  ```
+  composer require itsgoingd/clockwork
+  ```
+* **[Laravel Telescope](https://github.com/laravel/telescope)** *(4k stars, [d](https://laravel.com/docs/8.x/telescope))* Telescope provides insight into the requests coming into your application, exceptions, log entries, database queries, queued jobs, mail, notifications, cache operations, scheduled tasks, variable dumps, and more.
+
+  ```
+  composer require laravel/telescope
+  ```
+* **[Laravel Tail](https://github.com/spatie/laravel-tail)** *(~600 stars, [d](https://github.com/spatie/laravel-tail#usage))* adds an artisan command to tail the application log. It supports daily and single logs on your local machine.
+
+  ```
+  composer require spatie/laravel-tail
   ```
 
 ## Code Quality Tools
@@ -96,6 +122,14 @@ So, how to use this list? Easy! The packages are split into their respective cat
 
   ```
   composer require inertiajs/inertia-laravel
+  ```
+
+## Testing
+
+* **[Pest](https://github.com/pestphp/pest)** *(2.6k stars, [w](https://pestphp.com), [d](https://pestphp.com/docs))* Pest is a Testing Framework with a focus on simplicity. It was carefully crafted to bring the joy of testing to PHP.
+
+  ```
+  composer require pestphp/pest-plugin-laravel --dev
   ```
 
 ## PhpStorm Plugins
