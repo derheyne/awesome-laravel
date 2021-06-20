@@ -6,7 +6,7 @@
 
 This repository contains a curated list of selected Laravel packages I, personally, use on a daily basis and I'm always coming back using them for a new project. Almost all of them come from my [extensive list](https://github.com/derheyne?tab=stars) of starred Github projects.
 
-Yes, I know that there's already [a repository](https://github.com/chiraggude/awesome-laravel) for this type of awesome list, but (1) I don't want to scroll through thousands of packages I will probably never use to find the one I actually want to use (2) the list is horribly outdated, poorly maintained, and essential packages are missing and (3) I don't like how it only links the packages. I know what I want, I just don't fancy clicking the link and scrolling to find and then copy the composer command.
+Yes, I know that there's already [a repository](https://github.com/chiraggude/awesome-laravel) for this type of awesome list, but (1) I don't want to scroll through thousands of packages I will probably never use to find the one I actually want to use (2) the list is horribly outdated, poorly maintained, and essential packages are missing, and (3) I don't like how it only links the packages. I know what I want, I just don't fancy clicking the link and scroll to find and then copy the composer command. Sometimes the composer command isn't even mentioned in the readme, so you'd have to go to their docs to find that.
 
 So, how to use this list? Easy! The packages are split into their respective categories, like on every other [Awesome](https://github.com/sindresorhus/awesome) list. Every packages' name links to its Github repository. Click on "w" to open the packages' website. Click on "d" to open the packages' documentation. What follows is a short description of the package. Last but not least, I provide a command you can triple-click to copy it straight into your console to install the package.
 
@@ -110,7 +110,7 @@ So, how to use this list? Easy! The packages are split into their respective cat
   ```
   composer require nuwave/lighthouse
   ```
-* **[Eager Load Pivot Relations](https://github.com/ajcastro/eager-load-pivot-relations)** *(140 starks)* offers a simple method to eager load Laravel's pivot relations for a belongs to many relation.
+* **[Eager Load Pivot Relations](https://github.com/ajcastro/eager-load-pivot-relations)** *(140 stars)* offers a simple method to eager load Laravel's pivot relations for a belongs to many relation.
 
   ```
   composer require ajcastro/eager-load-pivot-relations
